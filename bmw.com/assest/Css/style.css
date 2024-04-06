@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roberto', sans-serif;
+}
+
+.btn {
+    width: 200px;
+    margin-top: 33px;
+    padding: 15px 50px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+    background: seagreen;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header img {
+    width: 70px;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 20px 10px 10px 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar .horizontal {
+    width: 2px;
+    height: 30px;
+    background: #fff;
+    margin-left: 20px;
+}
+
+.navbar .left-text {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.navbar .left-text sup {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.header hr {
+    width: 770px;
+}
+
+.header .top-text {
+    color: #fff;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.header .bottom-text {
+    margin-top: 260px;
+    color: #fff;
+    margin-right: 780px;
+}
+
+.bottom-text h3 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bottom-text h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.bottom-text .btn {
+    margin-top: 33px;
+    padding: 15px 50px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+}
+
+
+.first-page {
+    width: 100%;
+    height: 100vh;
+    margin-top: 5px;
+    display: flex;
+}
+
+.first-page .left {
+    width: 50%;
+    height: 100%;
+    background: url('https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/freude/lego/lego-00-teaser-square.jpg?imwidth=1024');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.first-page .left h3 {
+    font-size: 25px;
+    text-align: left !important;
+    font-weight: 500;
+    margin-left: 98px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+}
+
+.first-page .left h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.first-page .left button {
+    margin-left: 100px;
+}
+
+.first-page .right {
+    width: 50%;
+    height: 100%;
+    background: url('https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/freude/touch_adaption/touch-adaption-teaser-square.jpeg?imwidth=1024');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+.first-page .right h3 {
+    font-size: 25px;
+    text-align: left !important;
+    font-weight: 500;
+    margin-left: 98px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+}
+
+.first-page .right h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.first-page .right button {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.second-page {
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-page video {
+    width: 600px;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.second-page h1 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.third-page {
+    width: 100%;
+    height: 500vh;
+    background: seagreen;
+}
+
+.third-page .texts {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.third-page h4 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.third-page h1 {
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.third-page h5 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.img {
+    width: 100%;
+    display: flex;
+}
+
+.img .imgaes-1 {
+    width: 73%;
+    margin-top: 30px;
+}
+
+.imgaes-1 .first img {
+    width: 100%;
+    height: 667px;
+}
+
+.imgaes-1 .second {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.second img {
+    width: 49.8%;
+}
+
+.second img:nth-child(2) {
+    margin-left: 4px;
+}
+
+.img .imgaes-2 {
+    width: 30%;
+    margin-left: 2px;
+    margin-top: 30px;
+}
+
+.imgaes-2 .first {
+    width: 100%;
+}
+
+.imgaes-2 img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgaes-2 .second img {
+    height: 343px !important;
+}
+
+.images .img {
+    margin-top: 4px !important;
+}
+
+.images .imgaes-2 .first {
+    width: 99.8%;
+}
